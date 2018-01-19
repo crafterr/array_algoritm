@@ -3,48 +3,44 @@ require __DIR__.'/vendor/autoload.php';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$data = [
-    'adam','marek','grzesiek'
-];
-function findBook(array $bookList, string $book_name):int
-{
-    $count = count($bookList);
-    if ($count==0)
-        return 0;
-    $found = false;
 
-    foreach($bookList as $index => $item)
+function findBook($name,$bookList)
+{
+    if (count($bookList)==0) {
+        return 0;
+    }
+
+    $found = false;
+    foreach ($bookList as $key => $item)
     {
-        if ($item === $book_name) {
-            $found = $index;
+        if ($item === $name)
+        {
+            $found = $key;
             break;
         }
     }
+
     return $found;
 }
 
-function placeAllBooks(array $orderedBooks, array &$bookList) {
-    foreach ($orderedBooks as $book) {
-        $bookFind = findBook($bookList,$book);
+function placeAll($orderedBook, &$bookList)
+{
+    foreach ($orderedBook as $result)
+    {
+        $bookFind = findBook($result,$bookList);
+
         if ($bookFind !== FALSE) {
             array_splice($bookList,$bookFind,1);
         }
     }
 }
 
+/*$bookList = ['PHP','MySQL','PGSQL','Oracle','Java'];
 
-
-$bookList = ['PHP','MySQL','PGSQL','Oracle','Java'];
 $orderedBooks = ['MySQL','PGSQL','Java'];
+//echo findBook("MySQL",$bookList);
 
+placeAll($orderedBooks,$bookList);
+dump($bookList);*/
 
-placeAllBooks($orderedBooks,$bookList);
-
-dump($bookList);
-
-
-$a = ['adam','marek','maciek'];
-array_splice($a,0,1);
-
-dump($a);
 
