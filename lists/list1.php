@@ -76,6 +76,55 @@ class LinkedList
         return true;
     }
 
+    /**
+     * @param string|NULL $data
+     * @param null $query
+     */
+    public function insertBefore(string $data = NULL, $query = NULL)
+    {
+        $newNode = new Node($data);
+        if ($this->_firstNode)
+        {
+            $previous = NULL;
+            $currentNode = $this->_firstNode;
+            while ($currentNode !== NULL)
+            {
+                if ($currentNode->data === $query)
+                {
+                    $newNode->next = $currentNode;
+                    $previous->next = $newNode;
+                    $this->_totalNode++;
+                    break;
+                }
+                $previous = $currentNode;
+                $currentNode = $currentNode->next;
+            }
+        }
+
+    }
+
+    /**
+     * Searching for a node
+     * @param string|null $data
+     * @return bool
+     */
+    public function search(string $data = null)
+    {
+        if ($this->_totalNode)
+        {
+            $currentNode = $this->_firstNode;
+            while ($currentNode !== NULL)
+            {
+                if ($currentNode->data === $data)
+                {
+                    return $currentNode;
+                }
+                $currentNode = $currentNode->next;
+            }
+        }
+        return false;
+    }
+
     public function display()
     {
         echo "Total book titles: ".$this->_totalNode.'<br />';
@@ -89,11 +138,20 @@ class LinkedList
 }
 
 
+
 $BookTitles = new LinkedList();
 $BookTitles->insert("Introduction to Algorithm");
 $BookTitles->insert("Introduction to PHP and Data structures");
 $BookTitles->insert("Programming Intelligence");
 $BookTitles->insertAtFirst("First introduction to Algoritm");
 $BookTitles->insert("Adam ma kota");
+$BookTitles->insertBefore("Before entire","Adam ma kota");
 $BookTitles->display();
 dump($BookTitles);
+
+$x = 1;
+do {
+    echo 'Marcin przyniosl '.$x.' jajek';
+    $x++;
+}
+while ($x<=10);
