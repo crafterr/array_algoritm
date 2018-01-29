@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991d45d1-15e0-4f22-92cf-2f0e57d5a473" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lists/list1.php" afterPath="$PROJECT_DIR$/lists/link-list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/link-list.php" afterPath="$PROJECT_DIR$/lists/link-list.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -107,8 +107,8 @@
       <file leaf-file-name="link-list.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lists/link-list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="177" column="13" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="177" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="185" column="4" lean-forward="false" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -250,12 +250,12 @@
       <workItem from="1517151787107" duration="931000" />
       <workItem from="1517166528871" duration="609000" />
       <workItem from="1517171779145" duration="2025000" />
-      <workItem from="1517247768944" duration="2503000" />
+      <workItem from="1517247768944" duration="3547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26907000" />
+    <option name="totallyTimeSpent" value="27951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="35" width="1387" height="810" extended-state="0" />
@@ -617,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lists/link-list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="177" column="13" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="177" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="185" column="4" lean-forward="false" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
           <folding />
         </state>
       </provider>

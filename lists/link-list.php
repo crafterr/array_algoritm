@@ -25,6 +25,7 @@ class LinkedList
 {
     private $_firstNode = NULL;
 
+
     private $_totalNode = 0;
 
     /**
@@ -181,6 +182,10 @@ class LinkedList
         }
         return false;
     }
+
+
+
+
 
     public function display()
     {
