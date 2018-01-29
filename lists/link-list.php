@@ -96,10 +96,48 @@ class LinkedList
                     $this->_totalNode++;
                     break;
                 }
+
                 $previous = $currentNode;
                 $currentNode = $currentNode->next;
             }
         }
+
+    }
+
+    /**
+     * insertAfter
+     * @param string|NULL $data
+     * @param null $query
+     */
+    public function insertAfter(string $data = NULL, $query = NULL)
+    {
+        $newNode = new Node($data);
+
+        if ($this->_firstNode)
+        {
+            $nextNode = NULL;
+            $currentNode = $this->_firstNode;
+            while ($currentNode !== NULL)
+            {
+                if ($currentNode->data === $query)
+                {
+                    if($nextNode !== NULL)
+                    {
+                        $newNode->next = $nextNode;
+                    }
+                    $currentNode->next = $newNode;
+                    $this->_totalNode++;
+                    break;
+                }
+
+                $nextNode = $currentNode;
+                $currentNode = $currentNode->next;
+                echo 'weszlo';
+            }
+
+
+        }
+
 
     }
 
@@ -125,6 +163,25 @@ class LinkedList
         return false;
     }
 
+    public function deleteFirst()
+    {
+
+        if ($this->_firstNode !== NULL)
+        {
+            if ($this->_firstNode->next !== NULL)
+            {
+                $this->_firstNode = $this->_firstNode->next;
+            }
+            else
+            {
+                $this->_firstNode = NULL;
+            }
+            $this->_totalNode--;
+            return true;
+        }
+        return false;
+    }
+
     public function display()
     {
         echo "Total book titles: ".$this->_totalNode.'<br />';
@@ -140,18 +197,17 @@ class LinkedList
 
 
 $BookTitles = new LinkedList();
-$BookTitles->insert("Introduction to Algorithm");
-$BookTitles->insert("Introduction to PHP and Data structures");
-$BookTitles->insert("Programming Intelligence");
-$BookTitles->insertAtFirst("First introduction to Algoritm");
-$BookTitles->insert("Adam ma kota");
-$BookTitles->insertBefore("Before entire","Adam ma kota");
-$BookTitles->display();
+$BookTitles->insert("1");
+$BookTitles->insert("2");
+$BookTitles->insert("3");
+//$BookTitles->insertAtFirst("First introduction to Algoritm");
+//$BookTitles->insert("Adam ma kota");
+//$BookTitles->insertBefore("Tej jest before","Introduction to Algorithm");
+//$BookTitles->insertAfter("Ten jest after","Adam ma kota");
+//$BookTitles->deleteFirst();
+//$BookTitles->display();
 dump($BookTitles);
 
-$x = 1;
-do {
-    echo 'Marcin przyniosl '.$x.' jajek';
-    $x++;
-}
-while ($x<=10);
+
+
+
