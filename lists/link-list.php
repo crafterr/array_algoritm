@@ -164,6 +164,9 @@ class LinkedList
         return false;
     }
 
+    /**
+     * @return bool
+     */
     public function deleteFirst()
     {
 
@@ -185,6 +188,111 @@ class LinkedList
 
 
 
+    /**
+     * @return mixed
+     */
+    public function deleteLast()
+    {
+        if ($this->_firstNode !== NULL)
+        {
+            $currentNode = $this->_firstNode;
+            if ($currentNode->next === NULL)
+            {
+                $this->_firstNode = NULL;
+            }
+            else
+            {
+                $previousNode = NULL;
+                while ($currentNode->next !== NULL)
+                {
+                    $previousNode = $currentNode;
+                    $currentNode = $currentNode->next;
+                }
+                $previousNode->next = NULL;
+                $this->_totalNode--;
+                return true;
+
+            }
+        }
+        return fasle;
+    }
+
+    /**
+     * Delete node from query
+     * @param string|NULL $query
+     */
+    public function delete(string $query = NULL)
+    {
+        if ($this->_firstNode)
+        {
+            $previous = NULL;
+            $currentNode = $this->_firstNode;
+            while ($currentNode !== NULL)
+            {
+                if ($currentNode->data === $query)
+                {
+                    if ($currentNode->next === NULL)
+                    {
+                        $previous->next = NULL;
+                    }
+                    else
+                    {
+                        $previous->next = $currentNode->next;
+                    }
+
+                    $this->_totalNode--;
+                    break;
+                }
+                $previous = $currentNode;
+                $currentNode = $currentNode->next;
+            }
+        }
+        return false;
+    }
+
+
+    /**
+     * reverse all nodes sort
+     */
+    public function reverse()
+    {
+        if ($this->_firstNode !== NULL)
+        {
+            if ($this->_firstNode->next !== NULL)
+            {
+                $reversedList = NULL;
+                $next = NULL;
+                $currentNode = $this->_firstNode;
+                while ($currentNode !== NULL)
+                {
+                    $next = $currentNode->next;
+                    $currentNode->next = $reversedList;
+                    $reversedList = $currentNode;
+                    $currentNode = $next;
+                }
+                $this->_firstNode = $reversedList;
+            }
+        }
+    }
+
+    public function getNthNode(int $n = 0)
+    {
+        $count = 1;
+        if ($this->_firstNode !== NULL)
+        {
+            $currentNode = $this->_firstNode;
+            while ($currentNode !== NULL)
+            {
+                if ($count === $n)
+                {
+                    return $currentNode;
+                }
+                $count++;
+                $currentNode = $currentNode->next;
+            }
+        }
+    }
+
 
 
     public function display()
@@ -205,13 +313,16 @@ $BookTitles = new LinkedList();
 $BookTitles->insert("1");
 $BookTitles->insert("2");
 $BookTitles->insert("3");
+//$BookTitles->reverse();
+//dump($BookTitles->getNthNode(1));
+//$BookTitles->deleteLast();
 //$BookTitles->insertAtFirst("First introduction to Algoritm");
 //$BookTitles->insert("Adam ma kota");
 //$BookTitles->insertBefore("Tej jest before","Introduction to Algorithm");
 //$BookTitles->insertAfter("Ten jest after","Adam ma kota");
 //$BookTitles->deleteFirst();
 //$BookTitles->display();
-dump($BookTitles);
+//dump($BookTitles);
 
 
 
