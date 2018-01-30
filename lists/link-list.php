@@ -15,18 +15,52 @@ class Node
 
     public $next = NULL;
 
+
+
     public function __construct(string $data = NULL)
     {
         $this->data = $data;
     }
 }
 
-class LinkedList
+class LinkedList implements Iterator
 {
     private $_firstNode = NULL;
 
 
     private $_totalNode = 0;
+
+    private $_currentNode = NULL;
+
+    private $_currentPosition = 0;
+
+    public function current()
+    {
+        return $this->_currentNode->data;
+    }
+
+    public function next()
+    {
+        $this->_currentPosition++;
+        $this->_currentNode = $this->_currentNode->next;
+    }
+
+    public function key()
+    {
+        return $this->_currentPosition;
+    }
+
+    public function valid()
+    {
+        return $this->_currentNode !== NULL;
+    }
+
+    public function rewind()
+    {
+        $this->_currentPosition = 0;
+        $this->_currentNode = $this->_firstNode;
+    }
+
 
     /**
      * Insert string to node
@@ -313,6 +347,11 @@ $BookTitles = new LinkedList();
 $BookTitles->insert("1");
 $BookTitles->insert("2");
 $BookTitles->insert("3");
+
+foreach ($BookTitles as $item)
+{
+    echo $item.' ';
+}
 //$BookTitles->reverse();
 //dump($BookTitles->getNthNode(1));
 //$BookTitles->deleteLast();
