@@ -350,7 +350,12 @@ $BookTitles->insert("3");
 
 foreach ($BookTitles as $item)
 {
-    echo $item.' ';
+    //echo $item.' ';
+}
+
+for ($BookTitles->rewind(); $BookTitles->valid(); $BookTitles->next())
+{
+    echo $BookTitles->current(). ' | ';
 }
 //$BookTitles->reverse();
 //dump($BookTitles->getNthNode(1));
