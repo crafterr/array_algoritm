@@ -14,7 +14,6 @@ $BookTitles->push("Mediawiki Administrative tutorial guide");
 $BookTitles->add(1,"Introduction to Calculus");
 $BookTitles->add(3,"Introduction to Graph Theory");
 
-dump($BookTitles->)
 foreach ($BookTitles as $item) {
     echo $item.' | ';
 }
