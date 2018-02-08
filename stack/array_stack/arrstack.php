@@ -1,21 +1,12 @@
 <?php
 define( 'ABSPATH', $_SERVER['DOCUMENT_ROOT']. '/' );
-require ABSPATH.'vendor/autoload.php';
+require ABSPATH . 'vendor/autoload.php';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-interface Stack
-{
-    public function push(string $item);
+require_once 'StackInterface.php';
 
-    public function pop();
-
-    public function top();
-
-    public function isEmpty();
-}
-
-class Books implements Stack
+class Books implements StackInterface
 {
 
     private $limit;
@@ -90,7 +81,7 @@ try
     $programmingBook->push('Mastering JavaScript');
     $programmingBook->push('MySQL Workbench tutorial');
 
-    echo $programmingBook->pop().'<br />';
+    //echo $programmingBook->pop().'<br />';
     echo $programmingBook->top();
 
     dump($programmingBook);
@@ -99,3 +90,4 @@ catch (Exception $e)
 {
     echo $e->getMessage();
 }
+

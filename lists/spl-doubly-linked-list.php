@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 
-$BookTitles = new SplDoublyLinkedList();
+$BookTitles = new SplDoublyLinkedList(SplDoublyLinkedList::IT_MODE_LIFO);
 
 $BookTitles->push("Introduction to Algorithm");
 $BookTitles->push("Introduction to PHP and Data structures");
