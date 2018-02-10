@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991d45d1-15e0-4f22-92cf-2f0e57d5a473" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/linkedlist_queue/AgentQueue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/linkedlist_queue/LinkedList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/linkedlist_queue/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/linkedlist_queue/Queue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/linkedlist_queue/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/simple_queue/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/spl_priority_queue/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/spl_queue/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stack/array_stack/StackInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stack/linkedlink_stack/BookList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stack/linkedlink_stack/LinkedList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stack/linkedlink_stack/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stack/linkedlink_stack/StackInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stack/linkedlink_stack/linkedlink_stack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stack/real_life_example/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stack/spl_stack/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stack/arrstack.php" afterPath="$PROJECT_DIR$/stack/array_stack/arrstack.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arrayiterator/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arrayiterator/Item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arrayiterator/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/spl-doubly-linked-list.php" afterPath="$PROJECT_DIR$/lists/spl-doubly-linked-list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/DumperInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/DumperInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,31 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AgentQueue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue/linkedlist_queue/AgentQueue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="link-list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/link-list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4017">
+            <state relative-caret-position="-4127">
               <caret line="69" column="20" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Queue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue/linkedlist_queue/Queue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -80,18 +32,8 @@
       <file leaf-file-name="SPL_c1.php" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL_c1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="1538" column="24" lean-forward="false" selection-start-line="1538" selection-start-column="24" selection-end-line="1538" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue/linkedlist_queue/Node.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="-174">
+              <caret line="1630" column="6" lean-forward="false" selection-start-line="1630" selection-start-column="6" selection-end-line="1630" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -107,21 +49,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue/linkedlist_queue/LinkedList.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/queue/spl_priority_queue/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="54" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arrayiterator/Item.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Container.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arrayiterator/Container.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SPL.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="1900" column="20" lean-forward="false" selection-start-line="1900" selection-start-column="20" selection-end-line="1900" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/queue/spl_priority_queue/index.php">
+        <entry file="file://$PROJECT_DIR$/arrayiterator/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#209#240#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array_vs_linklist.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists/array_vs_linklist.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -130,18 +114,8 @@
       <file leaf-file-name="linklist_vs_array.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/linklist_vs_array.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
+            <state relative-caret-position="945">
               <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue/spl_queue/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -202,6 +176,9 @@
         <option value="$PROJECT_DIR$/queue/linkedlist_queue/AgentQueue.php" />
         <option value="$PROJECT_DIR$/queue/linkedlist_queue/index.php" />
         <option value="$PROJECT_DIR$/queue/spl_priority_queue/index.php" />
+        <option value="$PROJECT_DIR$/arrayiterator/Item.php" />
+        <option value="$PROJECT_DIR$/arrayiterator/Container.php" />
+        <option value="$PROJECT_DIR$/arrayiterator/index.php" />
       </list>
     </option>
   </component>
@@ -233,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -244,47 +222,17 @@
             <path>
               <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
               <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="arrayiterator" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="introduction_1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="lists" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="queue" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="queue" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="linkedlist_queue" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="queue" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="spl_priority_queue" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="stack" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="stack" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="array_stack" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="stack" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="linkedlink_stack" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arrayalgoritm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="stack" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="spl_stack" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="arrayalgoritm" type="b2602c69:ProjectViewProjectNode" />
@@ -295,7 +243,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,17 +311,18 @@
       <workItem from="1517924952780" duration="1890000" />
       <workItem from="1517990105105" duration="1222000" />
       <workItem from="1518112062179" duration="2630000" />
+      <workItem from="1518274621530" duration="1918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48434000" />
+    <option name="totallyTimeSpent" value="50352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="34" width="1387" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35687733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3620818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -404,27 +352,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/introduction_1/findbookalgoritm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction_1/zad1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16590">
-          <caret line="1106" column="9" lean-forward="false" selection-start-line="1106" selection-start-column="9" selection-end-line="1106" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduction_1/vendor/autoload.php" />
     <entry file="file://$PROJECT_DIR$/introduction_1/findbookalgoritm.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -543,25 +470,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/array_vs_linklist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduction_1/zad1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="93" column="6" lean-forward="false" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -599,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/queue/linkedlist_queue/AgentQueue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="300">
           <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding />
         </state>
@@ -709,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/queue/linkedlist_queue/LinkedList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="990">
           <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="54" />
           <folding />
         </state>
@@ -723,35 +634,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL_c1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="1538" column="24" lean-forward="false" selection-start-line="1538" selection-start-column="24" selection-end-line="1538" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/linklist_vs_array.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
+        <state relative-caret-position="945">
           <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/link-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4017">
-          <caret line="69" column="20" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/queue/spl_priority_queue/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/array_vs_linklist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/link-list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4127">
+          <caret line="69" column="20" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL_c1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="1630" column="6" lean-forward="false" selection-start-line="1630" selection-start-column="6" selection-end-line="1630" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1900" column="20" lean-forward="false" selection-start-line="1900" selection-start-column="20" selection-end-line="1900" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrayiterator/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrayiterator/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrayiterator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#209#240#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
