@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'crafter\\ArrayIterator\\Container' => $baseDir . '/arrayiterator/Container.php',
+    'crafter\\ArrayIterator\\Item' => $baseDir . '/arrayiterator/Item.php',
 );

@@ -12,10 +12,6 @@ class ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f
     );
 
     public static $prefixLengthsPsr4 = array (
-        's' => 
-        array (
-            'stack\\' => 6,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -24,10 +20,6 @@ class ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f
     );
 
     public static $prefixDirsPsr4 = array (
-        'stack\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/stack',
-        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -38,11 +30,17 @@ class ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f
         ),
     );
 
+    public static $classMap = array (
+        'crafter\\ArrayIterator\\Container' => __DIR__ . '/../..' . '/arrayiterator/Container.php',
+        'crafter\\ArrayIterator\\Item' => __DIR__ . '/../..' . '/arrayiterator/Item.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f::$classMap;
 
         }, null, ClassLoader::class);
     }

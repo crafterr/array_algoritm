@@ -4,8 +4,6 @@ require ABSPATH.'vendor/autoload.php';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-require_once 'Item.php';
-require_once 'Container.php';
 
 use crafter\ArrayIterator\Item;
 use crafter\ArrayIterator\Container;
