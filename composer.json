@@ -1,5 +1,5 @@
 {
-    "name": "arrayiterator",
+    "name": "Data structures and algoritm",
     "description": "my own library",
     "type": "library",
     "license": "mit",
@@ -7,7 +7,10 @@
         "symfony/var-dumper": "^3.4"
     },
     "autoload": {
-        "classmap": ["arrayiterator/"]
+        "classmap": ["arrayiterator/"],
+        "psr-4": {
+            "ArrayAlgoritm\\Recursion\\": "recursion/src"
+        }
     }
 
 }

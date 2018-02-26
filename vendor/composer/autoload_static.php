@@ -17,6 +17,10 @@ class ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\VarDumper\\' => 28,
         ),
+        'A' => 
+        array (
+            'ArrayAlgoritm\\Recursion\\' => 24,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -27,6 +31,10 @@ class ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f
         'Symfony\\Component\\VarDumper\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
+        'ArrayAlgoritm\\Recursion\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/recursion/src',
         ),
     );
 
