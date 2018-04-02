@@ -17,13 +17,13 @@ $commentRepo->add($comment);
 
 $result = $commentRepo->fetchByPost(1);
 
+
 //renderer add class
 
 $comments = [];
 foreach ($result as $row) {
     $comments[$row->getParentId()][] = $row;
 }
-
 function displayComment(array $comments, int $n) {
     if (isset($comments[$n])) {
         $str = "<ul>";

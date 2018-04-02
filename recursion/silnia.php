@@ -24,6 +24,13 @@ function silnia2(int $n) : int
     return $result;
 }
 
+function maxDepth(&$i) {
+
+  return   $i++;
+  //return $i;
+}
+$i = 2;
+echo maxDepth($i); die();
 
 function fibonacci(int $n) : int
 {
