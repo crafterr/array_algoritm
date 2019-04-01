@@ -7,7 +7,7 @@
         "symfony/var-dumper": "^3.4"
     },
     "autoload": {
-        "classmap": ["arrayiterator/"],
+        "classmap": ["arrayiterator/","account"],
         "psr-4": {
             "ArrayAlgoritm\\Recursion\\": "recursion/src"
         }

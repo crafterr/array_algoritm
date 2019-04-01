@@ -8,4 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'crafter\\ArrayIterator\\Container' => $baseDir . '/arrayiterator/Container.php',
     'crafter\\ArrayIterator\\Item' => $baseDir . '/arrayiterator/Item.php',
+    'crafter\\account\\Account' => $baseDir . '/account/Account.php',
+    'crafter\\account\\Person' => $baseDir . '/account/Person.php',
 );

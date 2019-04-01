@@ -41,6 +41,8 @@ class ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f
     public static $classMap = array (
         'crafter\\ArrayIterator\\Container' => __DIR__ . '/../..' . '/arrayiterator/Container.php',
         'crafter\\ArrayIterator\\Item' => __DIR__ . '/../..' . '/arrayiterator/Item.php',
+        'crafter\\account\\Account' => __DIR__ . '/../..' . '/account/Account.php',
+        'crafter\\account\\Person' => __DIR__ . '/../..' . '/account/Person.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
