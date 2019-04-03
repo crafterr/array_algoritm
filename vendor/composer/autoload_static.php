@@ -43,6 +43,15 @@ class ComposerStaticInit488d557f04d524b8296bc4df6e0d0d5f
         'crafter\\ArrayIterator\\Item' => __DIR__ . '/../..' . '/arrayiterator/Item.php',
         'crafter\\account\\Account' => __DIR__ . '/../..' . '/account/Account.php',
         'crafter\\account\\Person' => __DIR__ . '/../..' . '/account/Person.php',
+        'crafter\\personwritter\\Person' => __DIR__ . '/../..' . '/personwritter/Person.php',
+        'crafter\\personwritter\\PersonWritter' => __DIR__ . '/../..' . '/personwritter/PersonWritter.php',
+        'crafter\\personwritter\\PersonWritterInterface' => __DIR__ . '/../..' . '/personwritter/PersonWritterInterface.php',
+        'crafter\\strategy\\ArrayOutput' => __DIR__ . '/../..' . '/Strategy/ArrayOutput.php',
+        'crafter\\strategy\\Client' => __DIR__ . '/../..' . '/Strategy/Client.php',
+        'crafter\\strategy\\JsonOutput' => __DIR__ . '/../..' . '/Strategy/JsonOutput.php',
+        'crafter\\strategy\\OutputInterface' => __DIR__ . '/../..' . '/Strategy/OutputInterface.php',
+        'crafter\\zwrotne\\ProcessSale' => __DIR__ . '/../..' . '/zwrotne/ProcessSale.php',
+        'crafter\\zwrotne\\Product' => __DIR__ . '/../..' . '/zwrotne/Product.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

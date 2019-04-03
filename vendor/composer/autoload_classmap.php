@@ -10,4 +10,13 @@ return array(
     'crafter\\ArrayIterator\\Item' => $baseDir . '/arrayiterator/Item.php',
     'crafter\\account\\Account' => $baseDir . '/account/Account.php',
     'crafter\\account\\Person' => $baseDir . '/account/Person.php',
+    'crafter\\personwritter\\Person' => $baseDir . '/personwritter/Person.php',
+    'crafter\\personwritter\\PersonWritter' => $baseDir . '/personwritter/PersonWritter.php',
+    'crafter\\personwritter\\PersonWritterInterface' => $baseDir . '/personwritter/PersonWritterInterface.php',
+    'crafter\\strategy\\ArrayOutput' => $baseDir . '/Strategy/ArrayOutput.php',
+    'crafter\\strategy\\Client' => $baseDir . '/Strategy/Client.php',
+    'crafter\\strategy\\JsonOutput' => $baseDir . '/Strategy/JsonOutput.php',
+    'crafter\\strategy\\OutputInterface' => $baseDir . '/Strategy/OutputInterface.php',
+    'crafter\\zwrotne\\ProcessSale' => $baseDir . '/zwrotne/ProcessSale.php',
+    'crafter\\zwrotne\\Product' => $baseDir . '/zwrotne/Product.php',
 );
