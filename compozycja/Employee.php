@@ -47,6 +47,9 @@ class Employee implements SalaryCalculable {
     return $this->salaryStrategy->calculate($this->salaryPerHour);
   }
 
+  /**
+   * @return float
+   */
   public function calculateSalaryPerMonth(): float {
     return $this->calculateSalaryPerHour()*160;
   }

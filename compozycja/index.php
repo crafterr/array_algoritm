@@ -15,7 +15,7 @@ $developer->setFirstname("Adam");
 $developer->setLastname("Pietras");
 
 $projectManager = new ProjectManager(new EmploymentContract());
-$projectManager->setSalaryPerHour(50);
+$projectManager->setSalaryPerHour(70);
 $projectManager->setFirstname("Stuard");
 $projectManager->setLastname("Sturad");
 
