@@ -4,10 +4,11 @@
     "type": "library",
     "license": "mit",
     "require": {
-        "symfony/var-dumper": "^3.4"
+        "symfony/var-dumper": "^3.4",
+        "phpunit/phpunit": "^6.5"
     },
     "autoload": {
-        "classmap": ["arrayiterator/","account","zwrotne","personwritter","strategy","factory","transport","shopproduct"],
+        "classmap": ["arrayiterator/","account","zwrotne","personwritter","strategy","factory","transport","shopproduct","lesson_strategy"],
         "psr-4": {
             "ArrayAlgoritm\\Recursion\\": "recursion/src"
         }
