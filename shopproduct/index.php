@@ -46,4 +46,5 @@ $discountAmount = new ContextDiscount(new DiscountAmount());
 //echo $textWriter->print();
 $discountPercentage->discount($book3,10);
 $discountAmount->discount($book3,10);
+
 echo $xmlWritter->print();
