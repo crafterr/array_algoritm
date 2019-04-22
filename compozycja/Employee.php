@@ -1,14 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: crafter
- * Date: 16/04/2019
- * Time: 18:22
- */
-
 namespace crafter\compozycja;
 
 use crafter\compozycja\SalaryStrategy\SalaryStrategyInterface;
+
 class Employee implements SalaryCalculable {
 
   /**

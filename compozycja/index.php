@@ -20,8 +20,6 @@ $projectManager->setFirstname("Stuard");
 $projectManager->setLastname("Sturad");
 
 
-dump($developer->calculateSalaryPerHour());
-dump($developer->calculateSalaryPerMonth());
 
 dump($projectManager->calculateSalaryPerHour());
 dump($projectManager->calculateSalaryPerMonth());
