@@ -4,40 +4,18 @@ ini_set('display_errors', 1);
 define( 'ABSPATH', $_SERVER['DOCUMENT_ROOT']. '/' );
 require ABSPATH . 'vendor/autoload.php';
 
-class ObjectManager implements Iterator {
+class ObjectManager implements IteratorAggregate {
   private $objects = [];
-  private $position;
 
+  public function getIterator() {
+    return new ArrayIterator($this->objects);
+  }
 
 
   public function addObject(Objects $objects) {
     $this->objects[] = $objects;
   }
 
-  public function current()
-  {
-    return $this->objects[$this->position];
-  }
-
-  public function key()
-  {
-    return $this->position;
-  }
-
-  public function next()
-  {
-    ++$this->position;
-  }
-
-  public function rewind()
-  {
-    $this->position = 0;
-  }
-
-  public function valid()
-  {
-    return array_key_exists($this->position, $this->objects);
-  }
 
 }
 
@@ -103,29 +81,6 @@ class Item {
 
 }
 
-$tree = [
-  'objects' => [
-    'dom' => [
-      'items' => [
-        'lazienka',
-        'kuchnia',
-        'wc'
-      ]
-    ],
-    'hotel' => [
-      'items' => [
-        'wc',
-        'pokoj'
-      ]
-    ],
-    'mieszkanie' => [
-      'items' => [
-        'pokoj',
-        'lazienka'
-      ]
-    ]
-  ]
-];
 
 $dom = new Objects('dom');
 $dom->addItem(new Item('Lazienka'));
@@ -145,7 +100,7 @@ $manager->addObject($dom);
 $manager->addObject($hotel);
 $manager->addObject($mieszkanie);
 
-dump($manager);
+dump($manager->getIterator());
 /**
  * @var \Objects $object
  * @var \Item $item
